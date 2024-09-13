@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0678742C91B3400003AA62 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678732C91B3400003AA62 /* TextFieldView.swift */; };
+		FC0678762C91B3910003AA62 /* RegisterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678752C91B3910003AA62 /* RegisterImageView.swift */; };
+		FC0678782C91B3C90003AA62 /* RegisterTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678772C91B3C90003AA62 /* RegisterTitleView.swift */; };
+		FC06787A2C91B48B0003AA62 /* RegisterButtonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678792C91B48B0003AA62 /* RegisterButtonTextView.swift */; };
+		FC06787C2C91B72E0003AA62 /* RegisterDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06787B2C91B72E0003AA62 /* RegisterDatePickerView.swift */; };
+		FC06787F2C91B8920003AA62 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06787E2C91B8920003AA62 /* RegisterScreen.swift */; };
+		FC0678832C91BAF70003AA62 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678822C91BAF70003AA62 /* RegisterViewModel.swift */; };
+		FC0678872C91C9D60003AA62 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678862C91C9D60003AA62 /* TabBarItem.swift */; };
+		FC0678892C91CA280003AA62 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678882C91CA280003AA62 /* Router.swift */; };
+		FC06788C2C91CBD70003AA62 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06788B2C91CBD60003AA62 /* TabBarView.swift */; };
+		FC06788E2C91CE5C0003AA62 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06788D2C91CE5C0003AA62 /* Modifiers.swift */; };
+		FC0678902C91CECA0003AA62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06788F2C91CECA0003AA62 /* MainView.swift */; };
+		FC0678932C91CF7B0003AA62 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678922C91CF7B0003AA62 /* MapScreen.swift */; };
+		FC0678962C91CFB80003AA62 /* CompatibilityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678952C91CFB80003AA62 /* CompatibilityScreen.swift */; };
+		FC0678992C91CFF00003AA62 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0678982C91CFF00003AA62 /* ProfileScreen.swift */; };
+		FC355C9B2C9435560040FEBF /* astroData.json in Resources */ = {isa = PBXBuildFile; fileRef = FC355C9A2C9435560040FEBF /* astroData.json */; };
+		FC355C9D2C9435730040FEBF /* AstroData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC355C9C2C9435730040FEBF /* AstroData.swift */; };
+		FC355C9F2C9435AF0040FEBF /* AstroDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC355C9E2C9435AF0040FEBF /* AstroDataViewModel.swift */; };
+		FC355CA12C9436E30040FEBF /* AstroCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC355CA02C9436E30040FEBF /* AstroCardView.swift */; };
+		FC355CA32C943D070040FEBF /* AstroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC355CA22C943D070040FEBF /* AstroDetailView.swift */; };
+		FC3CD99E2C9443AE00FAB5F4 /* CompatibilityModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD99D2C9443AE00FAB5F4 /* CompatibilityModelView.swift */; };
+		FC3CD9A02C944C2800FAB5F4 /* CompatibilityResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD99F2C944C2800FAB5F4 /* CompatibilityResultScreen.swift */; };
+		FC3CD9A22C945A0900FAB5F4 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9A12C945A0900FAB5F4 /* ProfileButtonView.swift */; };
+		FC8336162C90135800F3DA4C /* RixastrologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8336152C90135800F3DA4C /* RixastrologyApp.swift */; };
+		FC8336182C90135800F3DA4C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8336172C90135800F3DA4C /* HomeScreen.swift */; };
+		FC83361A2C90135A00F3DA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8336192C90135A00F3DA4C /* Assets.xcassets */; };
+		FC83361D2C90135A00F3DA4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83361C2C90135A00F3DA4C /* Preview Assets.xcassets */; };
+		FC83362E2C9015E000F3DA4C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83362D2C9015E000F3DA4C /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC0678732C91B3400003AA62 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		FC0678752C91B3910003AA62 /* RegisterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterImageView.swift; sourceTree = "<group>"; };
+		FC0678772C91B3C90003AA62 /* RegisterTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitleView.swift; sourceTree = "<group>"; };
+		FC0678792C91B48B0003AA62 /* RegisterButtonTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButtonTextView.swift; sourceTree = "<group>"; };
+		FC06787B2C91B72E0003AA62 /* RegisterDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDatePickerView.swift; sourceTree = "<group>"; };
+		FC06787E2C91B8920003AA62 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		FC0678822C91BAF70003AA62 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		FC0678862C91C9D60003AA62 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		FC0678882C91CA280003AA62 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FC06788B2C91CBD60003AA62 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FC06788D2C91CE5C0003AA62 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		FC06788F2C91CECA0003AA62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FC0678922C91CF7B0003AA62 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		FC0678952C91CFB80003AA62 /* CompatibilityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityScreen.swift; sourceTree = "<group>"; };
+		FC0678982C91CFF00003AA62 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		FC355C9A2C9435560040FEBF /* astroData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astroData.json; sourceTree = "<group>"; };
+		FC355C9C2C9435730040FEBF /* AstroData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroData.swift; sourceTree = "<group>"; };
+		FC355C9E2C9435AF0040FEBF /* AstroDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDataViewModel.swift; sourceTree = "<group>"; };
+		FC355CA02C9436E30040FEBF /* AstroCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroCardView.swift; sourceTree = "<group>"; };
+		FC355CA22C943D070040FEBF /* AstroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDetailView.swift; sourceTree = "<group>"; };
+		FC3CD99D2C9443AE00FAB5F4 /* CompatibilityModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityModelView.swift; sourceTree = "<group>"; };
+		FC3CD99F2C944C2800FAB5F4 /* CompatibilityResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityResultScreen.swift; sourceTree = "<group>"; };
+		FC3CD9A12C945A0900FAB5F4 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
+		FC8336122C90135800F3DA4C /* Rixastrology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rixastrology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8336152C90135800F3DA4C /* RixastrologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RixastrologyApp.swift; sourceTree = "<group>"; };
+		FC8336172C90135800F3DA4C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FC8336192C90135A00F3DA4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC83361C2C90135A00F3DA4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC83362D2C9015E000F3DA4C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC83360F2C90135800F3DA4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC06787D2C91B87B0003AA62 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				FC06787E2C91B8920003AA62 /* RegisterScreen.swift */,
+				FC0678822C91BAF70003AA62 /* RegisterViewModel.swift */,
+				FC0678802C91B8F90003AA62 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		FC0678802C91B8F90003AA62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC0678752C91B3910003AA62 /* RegisterImageView.swift */,
+				FC0678772C91B3C90003AA62 /* RegisterTitleView.swift */,
+				FC0678792C91B48B0003AA62 /* RegisterButtonTextView.swift */,
+				FC06787B2C91B72E0003AA62 /* RegisterDatePickerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC0678812C91B9A60003AA62 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC8336172C90135800F3DA4C /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC0678842C91C9C50003AA62 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC0678862C91C9D60003AA62 /* TabBarItem.swift */,
+				FC06788B2C91CBD60003AA62 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FC0678912C91CF6C0003AA62 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FC0678922C91CF7B0003AA62 /* MapScreen.swift */,
+				FC355C9E2C9435AF0040FEBF /* AstroDataViewModel.swift */,
+				FC355CA02C9436E30040FEBF /* AstroCardView.swift */,
+				FC355CA22C943D070040FEBF /* AstroDetailView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		FC0678942C91CFA00003AA62 /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				FC0678952C91CFB80003AA62 /* CompatibilityScreen.swift */,
+				FC3CD99D2C9443AE00FAB5F4 /* CompatibilityModelView.swift */,
+				FC3CD99F2C944C2800FAB5F4 /* CompatibilityResultScreen.swift */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		FC0678972C91CFD40003AA62 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FC0678982C91CFF00003AA62 /* ProfileScreen.swift */,
+				FC3CD9A12C945A0900FAB5F4 /* ProfileButtonView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC8336092C90135800F3DA4C = {
+			isa = PBXGroup;
+			children = (
+				FC8336142C90135800F3DA4C /* Rixastrology */,
+				FC8336132C90135800F3DA4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8336132C90135800F3DA4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8336122C90135800F3DA4C /* Rixastrology.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8336142C90135800F3DA4C /* Rixastrology */ = {
+			isa = PBXGroup;
+			children = (
+				FC8336232C90136500F3DA4C /* App */,
+				FC8336242C90137200F3DA4C /* UI */,
+				FC8336282C9013CD00F3DA4C /* Models */,
+				FC8336292C9013DE00F3DA4C /* Utilities */,
+				FC8336272C90139500F3DA4C /* Resources */,
+				FC83361B2C90135A00F3DA4C /* Preview Content */,
+			);
+			path = Rixastrology;
+			sourceTree = "<group>";
+		};
+		FC83361B2C90135A00F3DA4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC83361C2C90135A00F3DA4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC8336232C90136500F3DA4C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC8336152C90135800F3DA4C /* RixastrologyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC8336242C90137200F3DA4C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FC06788F2C91CECA0003AA62 /* MainView.swift */,
+				FC8336252C90138000F3DA4C /* Screens */,
+				FC8336262C90138600F3DA4C /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FC8336252C90138000F3DA4C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FC06787D2C91B87B0003AA62 /* Register */,
+				FC0678812C91B9A60003AA62 /* Home */,
+				FC0678912C91CF6C0003AA62 /* Map */,
+				FC0678942C91CFA00003AA62 /* Compatibility */,
+				FC0678972C91CFD40003AA62 /* Profile */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FC8336262C90138600F3DA4C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC0678842C91C9C50003AA62 /* TabBar */,
+				FC0678732C91B3400003AA62 /* TextFieldView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC8336272C90139500F3DA4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC8336192C90135A00F3DA4C /* Assets.xcassets */,
+				FC355C9A2C9435560040FEBF /* astroData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC8336282C9013CD00F3DA4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC355C9C2C9435730040FEBF /* AstroData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC8336292C9013DE00F3DA4C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FC83362A2C9013EB00F3DA4C /* Helpers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FC83362A2C9013EB00F3DA4C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC83362D2C9015E000F3DA4C /* Extensions.swift */,
+				FC0678882C91CA280003AA62 /* Router.swift */,
+				FC06788D2C91CE5C0003AA62 /* Modifiers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8336112C90135800F3DA4C /* Rixastrology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8336202C90135A00F3DA4C /* Build configuration list for PBXNativeTarget "Rixastrology" */;
+			buildPhases = (
+				FC83360E2C90135800F3DA4C /* Sources */,
+				FC83360F2C90135800F3DA4C /* Frameworks */,
+				FC8336102C90135800F3DA4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rixastrology;
+			productName = Rixastrology;
+			productReference = FC8336122C90135800F3DA4C /* Rixastrology.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC83360A2C90135800F3DA4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FC8336112C90135800F3DA4C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FC83360D2C90135800F3DA4C /* Build configuration list for PBXProject "Rixastrology" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8336092C90135800F3DA4C;
+			productRefGroup = FC8336132C90135800F3DA4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8336112C90135800F3DA4C /* Rixastrology */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8336102C90135800F3DA4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC355C9B2C9435560040FEBF /* astroData.json in Resources */,
+				FC83361D2C90135A00F3DA4C /* Preview Assets.xcassets in Resources */,
+				FC83361A2C90135A00F3DA4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC83360E2C90135800F3DA4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06787A2C91B48B0003AA62 /* RegisterButtonTextView.swift in Sources */,
+				FC0678832C91BAF70003AA62 /* RegisterViewModel.swift in Sources */,
+				FC06788E2C91CE5C0003AA62 /* Modifiers.swift in Sources */,
+				FC3CD99E2C9443AE00FAB5F4 /* CompatibilityModelView.swift in Sources */,
+				FC06788C2C91CBD70003AA62 /* TabBarView.swift in Sources */,
+				FC0678782C91B3C90003AA62 /* RegisterTitleView.swift in Sources */,
+				FC0678762C91B3910003AA62 /* RegisterImageView.swift in Sources */,
+				FC355CA12C9436E30040FEBF /* AstroCardView.swift in Sources */,
+				FC0678892C91CA280003AA62 /* Router.swift in Sources */,
+				FC0678872C91C9D60003AA62 /* TabBarItem.swift in Sources */,
+				FC0678932C91CF7B0003AA62 /* MapScreen.swift in Sources */,
+				FC3CD9A02C944C2800FAB5F4 /* CompatibilityResultScreen.swift in Sources */,
+				FC06787F2C91B8920003AA62 /* RegisterScreen.swift in Sources */,
+				FC06787C2C91B72E0003AA62 /* RegisterDatePickerView.swift in Sources */,
+				FC355C9F2C9435AF0040FEBF /* AstroDataViewModel.swift in Sources */,
+				FC8336182C90135800F3DA4C /* HomeScreen.swift in Sources */,
+				FC83362E2C9015E000F3DA4C /* Extensions.swift in Sources */,
+				FC355CA32C943D070040FEBF /* AstroDetailView.swift in Sources */,
+				FC0678992C91CFF00003AA62 /* ProfileScreen.swift in Sources */,
+				FC3CD9A22C945A0900FAB5F4 /* ProfileButtonView.swift in Sources */,
+				FC0678962C91CFB80003AA62 /* CompatibilityScreen.swift in Sources */,
+				FC355C9D2C9435730040FEBF /* AstroData.swift in Sources */,
+				FC0678742C91B3400003AA62 /* TextFieldView.swift in Sources */,
+				FC0678902C91CECA0003AA62 /* MainView.swift in Sources */,
+				FC8336162C90135800F3DA4C /* RixastrologyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC83361E2C90135A00F3DA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC83361F2C90135A00F3DA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8336212C90135A00F3DA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rixastrology/Preview Content\"";
+				DEVELOPMENT_TEAM = CTY44DYVYJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Rixastrology;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blessthedevil.Rixastrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC8336222C90135A00F3DA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rixastrology/Preview Content\"";
+				DEVELOPMENT_TEAM = CTY44DYVYJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Rixastrology;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blessthedevil.Rixastrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC83360D2C90135800F3DA4C /* Build configuration list for PBXProject "Rixastrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC83361E2C90135A00F3DA4C /* Debug */,
+				FC83361F2C90135A00F3DA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8336202C90135A00F3DA4C /* Build configuration list for PBXNativeTarget "Rixastrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8336212C90135A00F3DA4C /* Debug */,
+				FC8336222C90135A00F3DA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC83360A2C90135800F3DA4C /* Project object */;
+}

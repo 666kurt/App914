@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "libra-zodiac-sign.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
