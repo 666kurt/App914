@@ -25,6 +25,7 @@ struct MainView: View {
                 
                 TabBarView(selectedScreen: $router.selectedScreen)
             }
+            .ignoresSafeArea(.keyboard)
             .environmentObject(registerViewModel)
             .environmentObject(router)
         }

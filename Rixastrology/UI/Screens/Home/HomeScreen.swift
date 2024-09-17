@@ -31,10 +31,12 @@ struct HomeScreen: View {
                     .font(.title2.weight(.bold))
                     .frame(maxWidth: .infinity, alignment: .leading)
                 
-                Text(description)
-                    .font(.body)
-                    .multilineTextAlignment(.leading)
+                ScrollView {
+                    Text(description)
+                        .font(.body)
+                        .multilineTextAlignment(.leading)
                     .foregroundColor(.white)
+                }
                 
                 Spacer()
                 
@@ -47,7 +49,5 @@ struct HomeScreen: View {
 }
 
 #Preview {
-//    HomeScreen()
-//        .environmentObject(RegisterViewModel())
     MainView()
 }

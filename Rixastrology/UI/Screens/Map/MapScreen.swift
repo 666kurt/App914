@@ -34,6 +34,7 @@ extension MapScreen {
     private var natalChartView: some View {
         Image(viewModel.randomNatalChartImage())
             .resizable()
+            .scaledToFit()
             .frame(width: 300, height: 300)
     }
     
@@ -83,8 +84,4 @@ extension MapScreen {
 
 #Preview {
     MainView()
-    //    MapScreen()
-    //        .environmentObject(RegisterViewModel())
-    //        .environmentObject(AstroDataViewModel())
-    
 }

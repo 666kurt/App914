@@ -30,6 +30,12 @@
 		FC3CD99E2C9443AE00FAB5F4 /* CompatibilityModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD99D2C9443AE00FAB5F4 /* CompatibilityModelView.swift */; };
 		FC3CD9A02C944C2800FAB5F4 /* CompatibilityResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD99F2C944C2800FAB5F4 /* CompatibilityResultScreen.swift */; };
 		FC3CD9A22C945A0900FAB5F4 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9A12C945A0900FAB5F4 /* ProfileButtonView.swift */; };
+		FC3CD9A42C98316200FAB5F4 /* ProfileEditSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9A32C98316200FAB5F4 /* ProfileEditSheet.swift */; };
+		FC3CD9F92C99674800FAB5F4 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9F82C99674800FAB5F4 /* SplashScreen.swift */; };
+		FC3CD9FB2C99677200FAB5F4 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9FA2C99677200FAB5F4 /* OnboardingScreen.swift */; };
+		FC3CD9FD2C99678C00FAB5F4 /* OnboardingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9FC2C99678C00FAB5F4 /* OnboardingTabView.swift */; };
+		FC3CD9FF2C9967A100FAB5F4 /* CustomTabIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CD9FE2C9967A100FAB5F4 /* CustomTabIndicator.swift */; };
+		FC3CDA012C9970AE00FAB5F4 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = FC3CDA002C9970AE00FAB5F4 /* codemagic.yaml */; };
 		FC8336162C90135800F3DA4C /* RixastrologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8336152C90135800F3DA4C /* RixastrologyApp.swift */; };
 		FC8336182C90135800F3DA4C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8336172C90135800F3DA4C /* HomeScreen.swift */; };
 		FC83361A2C90135A00F3DA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8336192C90135A00F3DA4C /* Assets.xcassets */; };
@@ -61,6 +67,12 @@
 		FC3CD99D2C9443AE00FAB5F4 /* CompatibilityModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityModelView.swift; sourceTree = "<group>"; };
 		FC3CD99F2C944C2800FAB5F4 /* CompatibilityResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityResultScreen.swift; sourceTree = "<group>"; };
 		FC3CD9A12C945A0900FAB5F4 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
+		FC3CD9A32C98316200FAB5F4 /* ProfileEditSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditSheet.swift; sourceTree = "<group>"; };
+		FC3CD9F82C99674800FAB5F4 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FC3CD9FA2C99677200FAB5F4 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		FC3CD9FC2C99678C00FAB5F4 /* OnboardingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTabView.swift; sourceTree = "<group>"; };
+		FC3CD9FE2C9967A100FAB5F4 /* CustomTabIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabIndicator.swift; sourceTree = "<group>"; };
+		FC3CDA002C9970AE00FAB5F4 /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		FC8336122C90135800F3DA4C /* Rixastrology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rixastrology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8336152C90135800F3DA4C /* RixastrologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RixastrologyApp.swift; sourceTree = "<group>"; };
 		FC8336172C90135800F3DA4C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -144,13 +156,26 @@
 			children = (
 				FC0678982C91CFF00003AA62 /* ProfileScreen.swift */,
 				FC3CD9A12C945A0900FAB5F4 /* ProfileButtonView.swift */,
+				FC3CD9A32C98316200FAB5F4 /* ProfileEditSheet.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC3CD9F72C99673100FAB5F4 /* Onboarding&Splash */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CD9F82C99674800FAB5F4 /* SplashScreen.swift */,
+				FC3CD9FA2C99677200FAB5F4 /* OnboardingScreen.swift */,
+				FC3CD9FC2C99678C00FAB5F4 /* OnboardingTabView.swift */,
+				FC3CD9FE2C9967A100FAB5F4 /* CustomTabIndicator.swift */,
+			);
+			path = "Onboarding&Splash";
 			sourceTree = "<group>";
 		};
 		FC8336092C90135800F3DA4C = {
 			isa = PBXGroup;
 			children = (
+				FC3CDA002C9970AE00FAB5F4 /* codemagic.yaml */,
 				FC8336142C90135800F3DA4C /* Rixastrology */,
 				FC8336132C90135800F3DA4C /* Products */,
 			);
@@ -206,6 +231,7 @@
 		FC8336252C90138000F3DA4C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				FC3CD9F72C99673100FAB5F4 /* Onboarding&Splash */,
 				FC06787D2C91B87B0003AA62 /* Register */,
 				FC0678812C91B9A60003AA62 /* Home */,
 				FC0678912C91CF6C0003AA62 /* Map */,
@@ -318,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC355C9B2C9435560040FEBF /* astroData.json in Resources */,
+				FC3CDA012C9970AE00FAB5F4 /* codemagic.yaml in Resources */,
 				FC83361D2C90135A00F3DA4C /* Preview Assets.xcassets in Resources */,
 				FC83361A2C90135A00F3DA4C /* Assets.xcassets in Resources */,
 			);
@@ -339,22 +366,27 @@
 				FC0678762C91B3910003AA62 /* RegisterImageView.swift in Sources */,
 				FC355CA12C9436E30040FEBF /* AstroCardView.swift in Sources */,
 				FC0678892C91CA280003AA62 /* Router.swift in Sources */,
+				FC3CD9F92C99674800FAB5F4 /* SplashScreen.swift in Sources */,
 				FC0678872C91C9D60003AA62 /* TabBarItem.swift in Sources */,
 				FC0678932C91CF7B0003AA62 /* MapScreen.swift in Sources */,
 				FC3CD9A02C944C2800FAB5F4 /* CompatibilityResultScreen.swift in Sources */,
 				FC06787F2C91B8920003AA62 /* RegisterScreen.swift in Sources */,
 				FC06787C2C91B72E0003AA62 /* RegisterDatePickerView.swift in Sources */,
 				FC355C9F2C9435AF0040FEBF /* AstroDataViewModel.swift in Sources */,
+				FC3CD9FF2C9967A100FAB5F4 /* CustomTabIndicator.swift in Sources */,
 				FC8336182C90135800F3DA4C /* HomeScreen.swift in Sources */,
 				FC83362E2C9015E000F3DA4C /* Extensions.swift in Sources */,
 				FC355CA32C943D070040FEBF /* AstroDetailView.swift in Sources */,
 				FC0678992C91CFF00003AA62 /* ProfileScreen.swift in Sources */,
 				FC3CD9A22C945A0900FAB5F4 /* ProfileButtonView.swift in Sources */,
 				FC0678962C91CFB80003AA62 /* CompatibilityScreen.swift in Sources */,
+				FC3CD9A42C98316200FAB5F4 /* ProfileEditSheet.swift in Sources */,
 				FC355C9D2C9435730040FEBF /* AstroData.swift in Sources */,
+				FC3CD9FB2C99677200FAB5F4 /* OnboardingScreen.swift in Sources */,
 				FC0678742C91B3400003AA62 /* TextFieldView.swift in Sources */,
 				FC0678902C91CECA0003AA62 /* MainView.swift in Sources */,
 				FC8336162C90135800F3DA4C /* RixastrologyApp.swift in Sources */,
+				FC3CD9FD2C99678C00FAB5F4 /* OnboardingTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +543,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -546,7 +578,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -6,7 +6,11 @@ struct TextFieldView: View {
     let placeholder: String
     
     var body: some View {
-        TextField(placeholder, text: $text)
+        TextField("", text: $text)
+            .placeholder(when: text.isEmpty) {
+                Text(placeholder)
+                    .foregroundColor(.theme.text.textGray)
+            }
             .padding(17)
             .background(Color.theme.background.bgSecond)
             .font(.title)

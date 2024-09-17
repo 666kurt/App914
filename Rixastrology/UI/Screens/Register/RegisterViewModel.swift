@@ -13,7 +13,7 @@ class RegisterViewModel: ObservableObject {
     @AppStorage("savedBirthTime") var savedBirthTimeString: String = ""
     @AppStorage("savedBirthPlace") var savedBirthPlace: String = ""
     @AppStorage("savedNatalChart") var savedNatalChart: String = ""
-
+    
     func saveName() {
         if !name.isEmpty {
             savedName = name
@@ -89,17 +89,17 @@ class RegisterViewModel: ObservableObject {
     }
     
     let zodiacDescriptions: [String: String] = [
-        "Aquarius": "Aquarius (Водолей) — это знак независимости, интеллекта и гуманитарных идей. Люди, рожденные под этим знаком, любят свободу и стремятся к новаторским решениям.",
-        "Pisces": "Pisces (Рыбы) — интуитивные и чувствительные люди, склонные к глубокому самоанализу. Они творческие и обладают богатым воображением.",
-        "Aries": "Aries (Овен) — это энергичные и уверенные в себе лидеры, обладающие решимостью и страстью к жизни. Они готовы к новым вызовам и рискам.",
-        "Taurus": "Taurus (Телец) — люди, рожденные под этим знаком, ценят стабильность и комфорт. Они упорны и трудолюбивы, с любовью к прекрасному.",
-        "Gemini": "Gemini (Близнецы) — это любопытные и умные личности, которые быстро адаптируются к новым ситуациям и любят общение.",
-        "Cancer": "Cancer (Рак) — это чувствительные и заботливые люди, которые ценят семейные связи и обладают сильной интуицией.",
-        "Leo": "Leo (Лев) — это яркие и харизматичные личности, которые любят быть в центре внимания. Львы уверены в себе и обладают сильной волей.",
-        "Virgo": "Virgo (Дева) — это люди, склонные к анализу и перфекционизму. Они практичны и внимательны к деталям, всегда стремятся к порядку.",
-        "Libra": "Libra (Весы) — это знак гармонии и справедливости. Люди под этим знаком ценят баланс и стремятся к миру и гармонии в отношениях.",
-        "Scorpio": "Scorpio (Скорпион) — это страстные и целеустремленные личности, которые обладают сильной интуицией и умением глубоко понимать других.",
-        "Sagittarius": "Sagittarius (Стрелец) — это оптимистичные и авантюрные люди, которые любят путешествия и всегда стремятся к новым знаниям.",
-        "Capricorn": "Capricorn (Козерог) — это ответственные и дисциплинированные личности, которые всегда стремятся к своим целям через труд и настойчивость."
+        "Aquarius": "Aquarius is the sign of independence, intellect, and humanitarian ideals. Those born under Aquarius value freedom and strive to bring innovative solutions to the world. Known for their progressive mindset, Aquarians are natural visionaries, often ahead of their time.",
+        "Pisces": "Pisces are intuitive, sensitive individuals known for their emotional depth and introspective nature. With their rich imagination, they are often drawn to creative and spiritual pursuits. Pisces possess a strong sense of empathy, often feeling the emotions of those around them, making them natural healers and compassionate companions.",
+        "Aries": "Aries is a sign of energy, confidence, and leadership. Those born under Aries are driven by a passion for life and a fearless approach to challenges. They are trailblazers, always ready to take the initiative and face risks head-on.",
+        "Taurus": "Taurus is known for their appreciation of stability and comfort. People born under this sign are hardworking, patient, and persistent, with a deep connection to the material world. Taureans have a strong aesthetic sense and often enjoy indulging in life’s pleasures, from good food to beautiful surroundings.",
+        "Gemini": "Gemini is characterized by curiosity, intelligence, and adaptability. Geminis are quick thinkers who thrive on communication and love learning new things. Their versatility allows them to handle various situations with ease, making them excellent conversationalists and engaging companions.",
+        "Cancer": "Cancer is a sign deeply connected to emotions, family, and intuition. Those born under Cancer are nurturing, protective, and value their close relationships above all. They have a natural ability to sense the needs and feelings of others, often acting as caretakers.",
+        "Leo": "Leo is the sign of charisma, confidence, and leadership. Leos are naturally inclined to take center stage, and they thrive in the spotlight. With a strong will and a generous heart, they inspire others with their boldness and creativity.",
+        "Virgo": "Virgo is a sign known for its analytical mind, attention to detail, and practicality. Virgos are meticulous and hardworking, always striving for perfection in everything they do. They have a keen eye for organization and order, making them experts at solving problems efficiently.",
+        "Libra": "Libra is the sign of harmony, balance, and justice. Librans are diplomatic and strive for peace and fairness in all their relationships. They have a natural ability to see both sides of any situation, making them excellent mediators. Libras are also known for their appreciation of beauty and art, often seeking to create and surround themselves with aesthetically pleasing environments.",
+        "Scorpio": "Scorpio is a sign of intensity, passion, and deep emotional insight. Scorpios are known for their powerful intuition and their ability to understand the hidden truths of others. They are driven by their inner desires and possess a magnetic presence that draws people toward them.",
+        "Sagittarius": "Sagittarius is the sign of optimism, adventure, and the pursuit of knowledge. Sagittarians are free spirits who love to explore the world, both physically and intellectually. They are constantly seeking new experiences, whether through travel or learning, and their enthusiasm for life is contagious.",
+        "Capricorn": "Capricorn is known for their sense of responsibility, discipline, and ambition. Capricorns are hard-working and methodical in their approach to achieving their goals, often displaying great patience and perseverance. They are natural leaders with a strong sense of duty, and they strive for success in all areas of life."
     ]
 }

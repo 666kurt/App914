@@ -1,7 +1,9 @@
 import SwiftUI
+import Combine
 
 struct VStackModifiers: ViewModifier {
     func body(content: Content) -> some View {
+        
         content
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .padding(.horizontal)
@@ -9,6 +11,7 @@ struct VStackModifiers: ViewModifier {
             .background(Image("backgroundImage")
                 .resizable()
                 .ignoresSafeArea()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .scaledToFill(), alignment: .center)
     }
 }
