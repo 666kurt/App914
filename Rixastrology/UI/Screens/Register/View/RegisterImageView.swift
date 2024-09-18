@@ -7,7 +7,8 @@ struct RegisterImageView: View {
     var body: some View {
         Image(image)
             .resizable()
-            .frame(width: 228, height: 228)
+            .frame(width: UIScreen.main.bounds.width * 0.5,
+                   height: UIScreen.main.bounds.width * 0.5)
             .scaledToFit()
     }
 }

@@ -5,7 +5,7 @@ struct HomeScreen: View {
     @EnvironmentObject var viewModel: RegisterViewModel
     
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 10) {
             
             let zodiacSign = viewModel.getZodiacSign(for: viewModel.parsedBirthDate)
             
@@ -23,8 +23,9 @@ struct HomeScreen: View {
                 Image(zodiacSign)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 274, height: 274)
-                    .padding(.bottom, 20)
+                    .frame(width: UIScreen.main.bounds.width * 0.5,
+                           height: UIScreen.main.bounds.width * 0.5)
+                    .padding(.bottom, 10)
                 
                 Text("Description of the solar sign")
                     .foregroundColor(.theme.text.textBlue)

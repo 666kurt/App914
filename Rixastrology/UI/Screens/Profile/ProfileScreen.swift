@@ -8,6 +8,9 @@ struct ProfileScreen: View {
     var body: some View {
         VStack(spacing: 25) {
             Image("profile")
+                .resizable()
+                .frame(width: UIScreen.main.bounds.width * 0.5,
+                       height: UIScreen.main.bounds.width * 0.5)
             
             HStack {
                 Text("\(viewModel.savedName), \(viewModel.parsedBirthDate.formattedDate()), \(viewModel.parsedBirthTime.formattedTime()), \(viewModel.savedBirthPlace)")

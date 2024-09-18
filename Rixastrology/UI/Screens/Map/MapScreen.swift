@@ -6,7 +6,7 @@ struct MapScreen: View {
     @EnvironmentObject private var astroViewModel: AstroDataViewModel
     
     var body: some View {
-        VStack(spacing: 26) {
+        VStack(spacing: 20) {
             titleView
             userInfoView
             natalChartView
@@ -35,7 +35,8 @@ extension MapScreen {
         Image(viewModel.randomNatalChartImage())
             .resizable()
             .scaledToFit()
-            .frame(width: 300, height: 300)
+            .frame(width: UIScreen.main.bounds.width * 0.5,
+                   height: UIScreen.main.bounds.width * 0.5)
     }
     
     private var astroDataList: some View {

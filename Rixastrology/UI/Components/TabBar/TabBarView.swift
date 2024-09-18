@@ -39,7 +39,7 @@ struct TabBarView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 20)
-        .background(Color.theme.background.bgSecond)
+        .background(Color(hex: "#414885"))
         .clipShape(Capsule())
         .overlay(Capsule().stroke(Color.theme.text.textBlue,
                                   lineWidth: 1), alignment: .center)
